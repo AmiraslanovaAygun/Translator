@@ -1,0 +1,33 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    text-transform: capitalize;
+}
+
+.container{
+    
+    width: 500px;
+    min-height: 300px;
+    margin: 100px auto;
+    border: 1px solid ;
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color:lightcyan;
+}
+
+input{
+    width: 60%;
+    height: 30px;
+    margin: 10px;
+}
+
+button{
+    padding: 10px;
+ background-color: darkcyan;
+}
